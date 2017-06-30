@@ -64,6 +64,6 @@ public class ResumeController {
             return "education";
         }
         educationRepository.save(education);
-        return "education";
+        return "redirect:/display";
     }
 }
